@@ -1,0 +1,10 @@
+The code:
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) { return(sum(assignment)/length(someData)) }
+
+This code is clearly trying to create a function that will determine the mean of the numbers in assignment2.  However, when the code is run, it simply prints the following:
+
+"function(assignment2) { return(sum(assignment)/length(someData)) }"
+
+I think the reason it's not working might be that it's using "return". In the document provided on how to write basic functions, it gives an example of how to write a mean function, and instead of return, uses M= and ;M. Another thing I'm not sure about are what assignment and someData in this function are supposed to be.
