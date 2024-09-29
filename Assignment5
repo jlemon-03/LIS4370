@@ -1,0 +1,12 @@
+#Creating and viewing the matricies
+A <- matrix(1:100, nrow=10)  
+B <- matrix(1:1000, nrow=10)
+A
+B
+
+#Attempting to find the inverses and determinants using solve() and det()
+solve(A)
+determinantA <- det(A)
+solve(B)
+det(B)
+
