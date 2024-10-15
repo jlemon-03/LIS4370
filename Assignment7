@@ -1,0 +1,5 @@
+#S3 Creation
+s3 <- list(name = "Jackson", age = 21, GPA = 3.4) 
+
+#S4 Creation
+> s4 <- new("student",name="Jackson", age=21, GPA=3.4)
