@@ -1,0 +1,20 @@
+#I will be generating a dot-dash plot in ggplot2 as discussed by Dr. Piwek
+
+# Packages
+#install.packages(c("CarletonStats", "devtools", "epanetReader", "fmsb", "ggplot2", "ggthemes","latticeExtra", "MASS", "PerformanceAnalytics", "psych", "plyr", "prettyR", "plotrix","proto", "RCurl", "reshape", "reshape2"))
+z <- c("CarletonStats", "devtools", "epanetReader", "fmsb", "ggplot2", "ggthemes","latticeExtra", "MASS", "PerformanceAnalytics", "psych", "plyr", "prettyR", "plotrix","proto", "RCurl", "reshape", "reshape2")
+lapply(z, library, character.only=TRUE)
+
+# Provided code
+x <- 1967:1977
+y <- c(0.5,1.8,4.6,5.3,5.3,5.7,5.4,5,5.5,6,5)
+df <- data.frame(x,y)
+
+# Dot-dash plot with ggplot2
+
+ggplot(df, aes(x,y)) +
+  geom_point() +
+  geom_rug() +
+  theme_tufte(ticks=F) +
+  xlab("Year") +
+  ylab("Per capita expanditures in constant dollars")
