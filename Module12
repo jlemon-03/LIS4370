@@ -1,0 +1,28 @@
+#This is the code for the R Markdown file created for Module 12
+
+---
+title: "Module 12 Assignment"
+author: "Jackson Lemon"
+date: "2024-11-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Module 12 Assigment
+This is the R Markdown file that I created
+
+```{r}
+#This is just a test, there is no code.
+
+```
+
+### Final Project FAQ
+
+Topic:
+For the final project, I'm not yet entirely sure what I'm doing. 
+
+Functions:
+I'm searching for a topic that will allow me to create functions that can analyze a dataset I'm interested in. I'd like to create functions that can apply various statistical analysis techniques to multiple variables, primarily predictive techniques like regressions. This could also facilitate the inclusion of a function that can take and apply these  techniques to a sample and compare it to a population, likely with the aid of a graph. 
